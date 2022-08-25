@@ -112,5 +112,6 @@ cask "iterm2"
 # Enable trim for SSD performance
 cask "trim-enabler"
 cask "alfred"
+cask "hiddenbar"
 cask "google-chrome"
 cask "visual-studio-code"
