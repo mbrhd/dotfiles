@@ -2,7 +2,7 @@
 
 This repo contains dotfiles for my macOS setup
 
-Watch the [video collaboration](https://youtu.be/r_MpUP6aKiQ "Dotfiles in 100 Seconds on YouTube") between [fireship.io](https://fireship.io/ "Build and ship 🔥 your app ⚡ faster") and [eieio.xyz](http://dotfiles.eieio.xyz "Dotfiles from Start to Finish-ish"). And don't forget to [subscribe](https://fireship.page.link/youtube "Fireship YouTube Channel") while you're there!
+Watch the [video collaboration](https://youtu.be/r_MpUP6aKiQ "Dotfiles in 100 Seconds on YouTube") between [fireship.io](https://fireship.io/ "Build and ship 🔥 your app ⚡ faster") and [eieio.xyz](http://dotfiles.eieio.xyz "Dotfiles from Start to Finish-ish"). 
 
 ## Steps to bootstrap a new Mac
 
@@ -17,10 +17,10 @@ xcode-select --install
 
 ```zsh
 # Use SSH (if set up)...
-git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone git@github.com:mbrhd/dotfiles.git ~/.dotfiles
 
 # ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone https://github.com/mbrhd/dotfiles.git ~/.dotfiles
 ```
 
 
@@ -48,6 +48,14 @@ brew bundle --file ~/.dotfiles/Brewfile
 
 # ...or move to the directory first.
 cd ~/.dotfiles && brew bundle
+```
+
+5. Configure SpaceVim
+
+After installing [SpaceVim](https://spacevim.org/) 
+```
+ln -s ~/.dotfiles/.vimrc_back .vimrc_back
+ln -s ~/.dotfiles/.SpaceVim.d/init.toml ~/.SpaceVim.d/init.toml
 ```
 
 
