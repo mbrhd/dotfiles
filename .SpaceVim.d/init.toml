@@ -37,3 +37,14 @@ name = "fzf"
 name = 'shell'
 default_position = 'top'
 default_height = 30
+[[layers]]
+name = "lang#c"
+enable_clang_syntac_highlight = true
+[[layers]]
+name = "lang#python"
+python_file_head = [
+    '#!/usr/bin/env python',
+    '# -*- coding: utf-8 -*-',
+    '',
+    ''
+]
