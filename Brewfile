@@ -7,6 +7,10 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "teamookla/speedtest"
 tap "ubuntu/microk8s"
+# CLI tools
+brew "yank"
+brew "ncdu"
+brew "jq"
 # GNU database manager
 brew "gdbm"
 # Core application library for C
