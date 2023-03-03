@@ -50,12 +50,11 @@ brew bundle --file ~/.dotfiles/Brewfile
 cd ~/.dotfiles && brew bundle
 ```
 
-5. Configure SpaceVim
+5. Configure Neovim 
 
-After installing [SpaceVim](https://spacevim.org/) 
+After installing [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim) 
 ```
-ln -s ~/.dotfiles/.vimrc_back .vimrc_back
-ln -s ~/.dotfiles/.SpaceVim.d/init.toml ~/.SpaceVim.d/init.toml
+ln -s ~/.dotfiles/.config/nvim ~/.config/nvim 
 ```
 
 
